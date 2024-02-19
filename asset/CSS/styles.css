@@ -3,7 +3,11 @@
     padding: 0;
     font-family: "Bitter", serif;
     color: #474F7A;
+    
 
+  }
+  body{
+    padding: 0px 500px;
   }
   .top_img{
     width: 100%;
@@ -11,16 +15,19 @@
     object-fit: cover;
   }
   
-  .header_top{
-    position: relative;
-
+  .cover_pic_parent{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
   }
-  .cover_pic{
+  .cover_pic_child{
     position: absolute;
-    top: 145px;
-    left: 850px;
-    width: 200px;
-    height: 200px;
+    margin-bottom: 75px;
+    width: 12.5em;
+    height: 12.5em;
     border-radius: 50%;
     border: #474F7A 3px solid;
   }
@@ -89,10 +96,11 @@ height: 720px;
 }
 .abt_cont{
   margin-top: 22px;
-  font-size: 20px;
-  width: 600px;
+  font-size: 1.3em;
+  /* width: 600px; */
   padding-left: 30px;
   line-height: 30px;
+
 }
 .edu{
   margin-top: 30px;
@@ -100,8 +108,8 @@ height: 720px;
 }
 .edu_cont1{
   margin-top: 22px;
-  font-size: 20px;
-  width: 600px;
+  font-size: 1.3em;
+  /* width: 600px; */
   padding-left: 30px;
   line-height: 30px;
 }
@@ -114,8 +122,8 @@ height: 720px;
 }
 .exp_cont{
   margin-top: 22px;
-  font-size: 20px;
-  width: 600px;
+  font-size: 1.3em;
+  /* width: 600px; */
   padding-left: 0px;
   line-height: 30px;
 }
@@ -129,8 +137,8 @@ height: 720px;
 }
 .skills1{
   margin-top: 22px;
-  font-size: 20px;
-  width: 600px;
+  font-size: 1.3em;
+  /* width: 600px; */
   display: flex;
   gap: 30px;
 }
@@ -181,15 +189,15 @@ height: 5px;
 }
 .ref_content_bold{
   font-weight: 800;
-  font-size: 20px;
+  font-size: 1.3em;
   margin-top: 20px;
 }
 .ref_content_bold_awards{
   font-weight: 800;
-  font-size: 20px;
+  font-size: 1.3em;
 }
 .ref_content_size{
-  font-size: 20px;
+  font-size: 1.3em;
 }
 .bottom_right{
   width: 50%;
@@ -230,7 +238,7 @@ height: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left:124px;
+  margin-left:125px;
 }
 .row2_icon3{
   display: flex;
@@ -245,6 +253,6 @@ height: 5px;
   
 }
 .icons_font_size{
-  font-size: 20px;
+  font-size: 1.3em;
 }
 
